@@ -1,0 +1,16 @@
+{
+  "counts_source": "adata_scRNA_Annotated.h5ad",
+  "scaled_source": "adata_Neoblast.h5ad",
+  "counts_source_sha256": "415b45a0a01c04da616aa1909add605f05a13d514f1fad72a2e622c5bd5df414",
+  "scaled_source_sha256": "144e606f0c69950dccd736167a82da51783cbb8758b6019636a8051197b01fad",
+  "recovered_source_sha256": "a275a54a9bfab6180ba9c87a6854a59d1f350dc274916af85d6a4db6da67c1d4",
+  "n_cells": 14601,
+  "n_genes": 3000,
+  "rows_with_nonfinite_or_extreme_values": 164,
+  "rows_reconstructed": 175,
+  "matching_rows_validated": 14426,
+  "max_absolute_difference_on_intact_rows": 1.9073486328125e-06,
+  "agreement_tolerance": 2e-05,
+  "method": "Library-size normalization to 10000; log1p; supplied per-gene mean/std; upper clipping at 10. Replace only profiles disagreeing with reconstruction by more than 2e-5 or containing non-finite/extreme values. Require agreement on at least 95% of profiles.",
+  "study_recipe": "https://github.com/yangteam/Spatiotemporal-transcriptomic-atlas-of-planarian-regeneration/blob/main/Analysis/5.%20scRNA-seq%20Neoblast%20analysis.py"
+}

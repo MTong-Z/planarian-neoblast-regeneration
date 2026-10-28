@@ -1,0 +1,164 @@
+{
+  "study_doi": "10.1038/s41467-023-39016-0",
+  "accession": "OMIX003867",
+  "source_files": [
+    {
+      "source_file": "adata_scRNA_Annotated.h5ad",
+      "source_bytes": 1056300514,
+      "n_observations": 55014,
+      "retained_columns": [
+        "TimePoint",
+        "BigCellType",
+        "batch"
+      ]
+    },
+    {
+      "source_file": "adata_Neoblast.h5ad",
+      "source_bytes": 200301784,
+      "n_observations": 14601,
+      "retained_columns": [
+        "TimePoint",
+        "Annotation",
+        "batch"
+      ]
+    },
+    {
+      "source_file": "Visium_0hpa.h5ad",
+      "source_bytes": 591086481,
+      "n_observations": 8949,
+      "retained_columns": [
+        "TimePoint",
+        "library_id",
+        "Section_id",
+        "STAGATE",
+        "cell2location_Epidermal",
+        "cell2location_Gut",
+        "cell2location_Muscle",
+        "cell2location_Neoblast",
+        "cell2location_Neuronal",
+        "cell2location_Parenchymal",
+        "cell2location_Secretory",
+        "spatial_x",
+        "spatial_y"
+      ]
+    },
+    {
+      "source_file": "Visium_6hpa.h5ad",
+      "source_bytes": 531031208,
+      "n_observations": 7304,
+      "retained_columns": [
+        "TimePoint",
+        "library_id",
+        "Section_id",
+        "STAGATE",
+        "cell2location_Epidermal",
+        "cell2location_Gut",
+        "cell2location_Muscle",
+        "cell2location_Neoblast",
+        "cell2location_Neuronal",
+        "cell2location_Parenchymal",
+        "cell2location_Secretory",
+        "spatial_x",
+        "spatial_y"
+      ]
+    },
+    {
+      "source_file": "Visium_12hpa.h5ad",
+      "source_bytes": 572633036,
+      "n_observations": 10156,
+      "retained_columns": [
+        "TimePoint",
+        "library_id",
+        "Section_id",
+        "STAGATE",
+        "cell2location_Epidermal",
+        "cell2location_Gut",
+        "cell2location_Muscle",
+        "cell2location_Neoblast",
+        "cell2location_Neuronal",
+        "cell2location_Parenchymal",
+        "cell2location_Secretory",
+        "spatial_x",
+        "spatial_y"
+      ]
+    },
+    {
+      "source_file": "Visium_1dpa.h5ad",
+      "source_bytes": 536947399,
+      "n_observations": 8423,
+      "retained_columns": [
+        "TimePoint",
+        "library_id",
+        "Section_id",
+        "STAGATE",
+        "cell2location_Epidermal",
+        "cell2location_Gut",
+        "cell2location_Muscle",
+        "cell2location_Neoblast",
+        "cell2location_Neuronal",
+        "cell2location_Parenchymal",
+        "cell2location_Secretory",
+        "spatial_x",
+        "spatial_y"
+      ]
+    },
+    {
+      "source_file": "Visium_3dpa.h5ad",
+      "source_bytes": 549395057,
+      "n_observations": 8365,
+      "retained_columns": [
+        "TimePoint",
+        "library_id",
+        "Section_id",
+        "STAGATE",
+        "cell2location_Epidermal",
+        "cell2location_Gut",
+        "cell2location_Muscle",
+        "cell2location_Neoblast",
+        "cell2location_Neuronal",
+        "cell2location_Parenchymal",
+        "cell2location_Secretory",
+        "spatial_x",
+        "spatial_y"
+      ]
+    },
+    {
+      "source_file": "Visium_7dpa.h5ad",
+      "source_bytes": 555410094,
+      "n_observations": 10210,
+      "retained_columns": [
+        "TimePoint",
+        "library_id",
+        "Section_id",
+        "STAGATE",
+        "cell2location_Epidermal",
+        "cell2location_Gut",
+        "cell2location_Muscle",
+        "cell2location_Neoblast",
+        "cell2location_Neuronal",
+        "cell2location_Parenchymal",
+        "cell2location_Secretory",
+        "spatial_x",
+        "spatial_y"
+      ]
+    }
+  ],
+  "compact_files": [
+    {
+      "file": "cell_metadata.csv.gz",
+      "rows": 55014,
+      "sha256": "fc550859966d043531396982a1e805fef9a6204b67fb9aeb37beb2b914ca617b"
+    },
+    {
+      "file": "neoblast_metadata.csv.gz",
+      "rows": 14601,
+      "sha256": "532030a3075d17d00ea28e1ca5de0cea414dc07f0415bca9bac8b214026253f1"
+    },
+    {
+      "file": "visium_spots.csv.gz",
+      "rows": 53407,
+      "sha256": "a15db8a076f678369ceddd5de23eae2e980b8f1b41b47d6b021945332c46766b"
+    }
+  ],
+  "note": "These tables retain supplied cell labels, tissue labels, spatial coordinates, and cell2location estimates. They contain no gene-expression matrix."
+}

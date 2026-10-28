@@ -1,0 +1,14 @@
+{
+  "matrix_file": "recovered_adata_Neoblast.h5ad",
+  "n_cells": 14601,
+  "n_genes": 3000,
+  "method": "Wilcoxon rank-sum, subtype versus all other neoblasts",
+  "multiple_testing": "Benjamini-Hochberg within each subtype",
+  "matrix_min": -15.068296432495117,
+  "matrix_max": 10.0,
+  "has_negative_values": true,
+  "expression_file_sha256": "a275a54a9bfab6180ba9c87a6854a59d1f350dc274916af85d6a4db6da67c1d4",
+  "annotation_file_sha256": "36b27cc908e93c191db89ff1cb87e6ea0d36a6cb010160478d4f45526dfc4174",
+  "scanpy_version": "1.11.5",
+  "note": "Uses all 3,000 genes retained in the provided processed neoblast matrix. Above-zero fractions are not transcript-detection rates; LFCs are excluded. This analysis pools time points and does not model biological replicates."
+}

@@ -1,0 +1,9 @@
+TimePoint,epidermal neoblast,gut neoblast,muscle/parenchymal neoblast,neuron neoblast,novel neoblast,parapharyngeal neoblast,protonephridia neoblast,secretory neoblast,tspan-1+ neoblast
+cut0d,273,122,276,82,55,63,12,67,177
+cut6h,514,280,600,191,218,194,51,133,533
+cut12h,364,173,334,102,106,60,33,104,314
+cut24h,390,140,391,219,165,133,32,88,408
+cut2d,260,130,312,228,81,57,32,91,271
+cut3d,435,269,506,251,145,101,63,141,492
+cut5d,344,150,401,282,103,142,52,77,394
+cut7d,277,185,282,77,66,63,42,72,330
